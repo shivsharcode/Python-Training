@@ -5,10 +5,10 @@ wt = float(input(f"Enter your weight : "))
 
 if (weightType == 'k') :
     wt_pounds = wt * 2.2046
-    print(f"Your Weight in Pounds = {wt_pounds}")
+    print(f"Your Weight in Pounds = {wt_pounds: .3f}")
 elif (weightType == 'p') :
     wt_kilograms = wt / 2.2046
-    print(f"Your Weight in Kilograms = {wt_kilograms}")
+    print(f"Your Weight in Kilograms = {wt_kilograms: .3f}")
 else :
     print("Wrong Input :( ")
 

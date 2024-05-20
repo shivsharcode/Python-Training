@@ -22,3 +22,5 @@ print(line[0:])
 print(line[:5])
 print(line[:])
 
+name = "ShivamSharma"
+print(name[1:-1]) # last index nort included

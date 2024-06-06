@@ -1,5 +1,5 @@
 
-def guessGame():
+def guess_game():
     print("Guess the magic number")
     turn = 0
 
@@ -15,4 +15,4 @@ def guessGame():
 
 
 print("\n--Guess Game--")
-guessGame()
+guess_game()

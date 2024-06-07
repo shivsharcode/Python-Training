@@ -9,7 +9,7 @@ def query_help():
 
 def car_game():
     while(True):
-        query = input("Enter Car command : ").lower()
+        query = input("Enter Car 🚗 command : ").lower()
         status = 'stop'
         if query == 'help':
             query_help()
@@ -25,3 +25,12 @@ def car_game():
                 print("Car stopped")
             elif status == 'stop':
                 print("Car is already stopped")
+        elif query == 'quit':
+            return
+        else:
+            print("Wrong Input Enter again")
+
+
+if __name__ == '__main__':
+    car_game()
+    print("Exited Game 🎮")

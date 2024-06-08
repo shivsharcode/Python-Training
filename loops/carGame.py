@@ -8,7 +8,7 @@ def query_help():
 
 
 def car_game():
-    while(True):
+    while True:
         query = input("Enter Car 🚗 command : ").lower()
         status = 'stop'
         if query == 'help':

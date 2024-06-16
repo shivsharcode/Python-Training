@@ -21,3 +21,12 @@ print(customer.get("age"))
 
 # get doesn't throw keyError , rather it gives None
 print(customer.get("sex"))
+print(customer.get("sex", "Male"))
+
+# modifiable
+customer["name"] = "Shivam"
+print(customer.get("name"))
+
+# add new key
+customer["sex"] = "Male"
+print(customer.get("sex"))

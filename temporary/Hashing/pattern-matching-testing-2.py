@@ -1,4 +1,4 @@
-# Complexity : O(n-k+1)(k)  ==> O(n*k)
+# Complexity : O(n-k+1)(2k)  ==> O(n*k)
 def pattern_matching_testing2(s,  pattern):
     ans = []
     n = len(s)
@@ -9,7 +9,7 @@ def pattern_matching_testing2(s,  pattern):
 
     while right < n:            # O(n-k+1)
         sub = s[left:right+1]   # O(k)
-        if sub == pattern:
+        if sub == pattern:      # O(k)
             ans.append((left, sub))
 
         left += 1
